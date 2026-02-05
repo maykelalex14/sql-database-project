@@ -262,6 +262,6 @@ GRANT SELECT, INSERT, UPDATE, DELETE ON TABLE bookingservices TO agency_2;
 -- Customer role. done
 ALTER ROLE customer_3 WITH LOGIN;
 --how to access in powershell
---psql -U admin_1 -d easytravel
---psql -U agency_2 -d easytravel
---psql -U customer_3 -d easytravel
+--psql -U admin_role -d easytravel
+--psql -U agency_role -d easytravel
+--psql -U customer_role -d easytravel
